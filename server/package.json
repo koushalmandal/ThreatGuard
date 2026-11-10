@@ -1,0 +1,23 @@
+{
+  "name": "threatguard-api",
+  "version": "2.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --exitcrash src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.9.5",
+    "multer": "^2.5.0",
+    "pdfjs-dist": "^6.4.299"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
